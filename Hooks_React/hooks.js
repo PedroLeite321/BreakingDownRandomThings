@@ -31,7 +31,7 @@ const counterComponent = () =>  {
     if(nowNumber != newLimit)    {
         holdCounters.push(nowNumber);
         nowNumber++;
-        console.log("Bananinha" + counterValue)
+        console.log(`${counterValue},´)
         setCounterValue(nowNumber);
     }
 
